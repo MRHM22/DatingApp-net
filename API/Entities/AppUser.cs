@@ -19,7 +19,8 @@ public class AppUser {
     public required string City { get; set; }
     public required string Country { get; set; }
     public List<Photo> Photos { get; set; }=[];
-
+    public List<UserLike> LikedByUser { get; set; }=[];
+    public List<UserLike> LikedUser { get; set; }=[];
    /* public int GetAge(){
         return DateOfbirth.CalculateAge();
     }*/
